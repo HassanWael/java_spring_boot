@@ -2,6 +2,7 @@ package com.secondclass.second;
 
 import com.secondclass.second.couches.Couch;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,7 +16,7 @@ public class FunDemoController {
 //    }
 
     @Autowired
-    public void setMyCouch(Couch myCouch){
+    public void setMyCouch(@Qualifier("ronaldo") Couch myCouch){
         this.myCouch = myCouch;
     }
     @GetMapping("/get")

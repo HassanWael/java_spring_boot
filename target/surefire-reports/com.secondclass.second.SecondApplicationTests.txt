@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.secondclass.second.SecondApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.427 s -- in com.secondclass.second.SecondApplicationTests
