@@ -16,7 +16,7 @@ public class FunDemoController {
 //    }
 
     @Autowired
-    public void setMyCouch(Couch myCouch){
+    public void setMyCouch(@Qualifier("ronaldo") Couch myCouch){
         this.myCouch = myCouch;
     }
     @GetMapping("/get")
